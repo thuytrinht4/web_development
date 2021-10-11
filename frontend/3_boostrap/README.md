@@ -8,4 +8,4 @@ Resources:
 + `assets` folder: contains images used to render for this step
 
 Here is the example of how the output of the Bootstrap template look like:
-![result_image.png](C:\Users\ADMIN\PycharmProjects\web_development\frontend\3_boostrap\result_image.PNG)
+![result_image.png](result_image.PNG)
