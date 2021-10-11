@@ -1,0 +1,5 @@
+# virture environment folder
+venv/
+
+# others
+.idea/
