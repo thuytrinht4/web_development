@@ -5,7 +5,6 @@
 This is a flask app that visualizes data from the world bank API. Data is
 pulled directly from the API and then visualized using Plotly.
 
-This is a project in development for the Udacity Data Scientist Nanodegree. 
 
 ## Getting Started 
 
