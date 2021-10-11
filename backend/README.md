@@ -27,3 +27,20 @@ There needs to be some software on the server that can interpret these HTTP requ
 + Because Flask is written in Python, we can use Flask with any other Python library including pandas, numpy and scikit-learn. 
 
 In this project, I'll be deploying a data dashboard and pandas will help get the data ready.
+
+## Flask + Pandas + Plotly
+The purpose of this section is to give you an idea of how the final web app works in terms of passing information back and forth between the back end and front end. 
+The web template you'll be using at the end of the lesson will already provide the code for sharing information between the back and front ends. 
+Our task will be to wrangle data using Pandas and set up the plotly visualizations using Plotly.
+Since Flask is written in Python, we can use Pandas and Plotly with Flask code to handle backend task with data.
+But it's important to get a sense for how the web app works.
+
+The logic is:
+1. Wrangle data in a file (aka Python module). In this case, the file is called wrangling.py. The wrangling.py has a function that returns the clean data.
+2. Execute this function in routes.py to get the data in routes.py
+3. Pass the data to the front-end (index.html file) using the render_template method.
+4. Inside of index.html, you can access the data variable with the squiggly bracket syntax {{ }}
+
+The data set comes from this link at the World Bank's data repository: [link to dataset](https://data.worldbank.org/indicator/SP.RUR.TOTL.ZS?view=chart)
+
+
