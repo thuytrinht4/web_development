@@ -11,3 +11,6 @@ Here are some key parts of the Bootstrap documentation for your reference:
 + [Images](https://getbootstrap.com/docs/4.0/content/images/)
 + [Navigation Bars](https://getbootstrap.com/docs/4.0/components/navbar/)
 + [Font Colors](https://getbootstrap.com/docs/4.0/utilities/colors/)
+
+Here is the Youtube video for getting started and quickly create a data dashboard with Bootstrap:
++ [Bootstrap Library](https://www.youtube.com/watch?v=KsrqjguHWUI&t=273s)
