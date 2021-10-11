@@ -1,6 +1,6 @@
 # Getting started with Flask
 ## Install Flask
-    pip instal flask
+    pip install flask
 
 ## Using Flask in an IDE like Pycharm
 After installing Flask, all you need to do to run the Flask app is to open a Terminal and 
